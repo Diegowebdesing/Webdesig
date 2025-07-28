@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contáctanos para reservar tu tour en Costa Rica. Transporte privado, naturaleza y cultura con Ocean Pacific Tours." />
+  <title>Contacto | Ocean Pacific Tours Costa Rica</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="translation.js" defer></script>
+</head>
+<body>
+  <header class="hero" style="background-image: url('img/fondo-contacto.jpg');">
+    <div class="overlay">
+      <h1 data-es="Contáctanos" data-fr="Contactez-nous"></h1>
+      <button id="btn-lang">Français</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="formulario">
+      <h2 data-es="Formulario de Contacto" data-fr="Formulaire de Contact"></h2>
+      <form action="https://formspree.io/f/tu_codigo" method="POST">
+        <label data-es="Nombre completo:" data-fr="Nom complet:"></label>
+        <input type="text" name="nombre" required />
+
+        <label data-es="Correo electrónico:" data-fr="Adresse e-mail:"></label>
+        <input type="email" name="email" required />
+
+        <label data-es="Mensaje:" data-fr="Message:"></label>
+        <textarea name="mensaje" rows="5" required></textarea>
+
+        <button type="submit" data-es="Enviar mensaje" data-fr="Envoyer le message"></button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p data-es="Ocean Pacific Tours Costa Rica &copy; 2025" data-fr="Ocean Pacific Tours Costa Rica &copy; 2025"></p>
+  </footer>
+</body>
+</html>
